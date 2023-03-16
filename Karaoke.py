@@ -30,6 +30,10 @@ class Karaoke:
 
         self.__players.pop(playerIndex)
 
+    # il faudrait terminer cette fonction pour créer des lignes de score avec le bon nom de musique
+    def SetScore(self, player: Player, songID: int, score: int):
+        return
+
     def BestTotal(self) -> Player:
         bestPlayer: Player = self.__players[0]
         for player in self.__players:
